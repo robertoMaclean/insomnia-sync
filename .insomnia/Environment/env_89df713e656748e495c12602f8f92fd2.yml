@@ -1,0 +1,18 @@
+_id: env_89df713e656748e495c12602f8f92fd2
+type: Environment
+parentId: env_6289e4dbdef5142532609c99fd4f7d10e9d1ad97
+modified: 1657296960263
+created: 1654812493875
+name: local
+data:
+  eom_url: http://localhost:8080/eom
+  lpn_url: http://localhost:8080/eom
+  eom_sync_url: http://localhost:8080/eom
+dataPropertyOrder:
+  "&":
+    - eom_url
+    - lpn_url
+    - eom_sync_url
+color: null
+isPrivate: false
+metaSortKey: 1654812493876

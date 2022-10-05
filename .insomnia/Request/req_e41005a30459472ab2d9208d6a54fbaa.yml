@@ -1,0 +1,32 @@
+_id: req_e41005a30459472ab2d9208d6a54fbaa
+type: Request
+parentId: fld_4caa97893a634b8189ed379820c2267c
+modified: 1657642340557
+created: 1657642257592
+url: "{{eom_url}}/retornos/local/100"
+name: Retornos test
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      
+      "comunaId": [
+        "130109a"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ffa30bac19624ef795f2b3726e4af7bb
+authentication: {}
+metaSortKey: -1656137498601.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

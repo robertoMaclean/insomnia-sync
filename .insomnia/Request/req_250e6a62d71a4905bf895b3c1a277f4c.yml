@@ -1,0 +1,25 @@
+_id: req_250e6a62d71a4905bf895b3c1a277f4c
+type: Request
+parentId: fld_4caa97893a634b8189ed379820c2267c
+modified: 1655905835249
+created: 1654813003796
+url: "{{eom_url}}/orden/v1/ordenescliente"
+name: Ordenes cliente
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_45f8741c8b8244db80694c991d6d954b
+    name: numorden
+    value: "8598676310"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1654812861011
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

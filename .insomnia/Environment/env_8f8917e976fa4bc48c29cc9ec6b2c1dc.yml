@@ -1,0 +1,18 @@
+_id: env_8f8917e976fa4bc48c29cc9ec6b2c1dc
+type: Environment
+parentId: env_6289e4dbdef5142532609c99fd4f7d10e9d1ad97
+modified: 1657730088243
+created: 1655486334675
+name: dev
+data:
+  eom_url: https://cl-eom-sync.aws-test.paris.cl/eom
+  lpn_url: https://cl-sql-interface-eom.aws-test.paris.cl/eom
+  eom_sync_url: ""
+dataPropertyOrder:
+  "&":
+    - eom_url
+    - lpn_url
+    - eom_sync_url
+color: null
+isPrivate: false
+metaSortKey: 1655486334675

@@ -1,0 +1,29 @@
+_id: req_1552a8d711f748c9bbd01e12904f3463
+type: Request
+parentId: fld_4caa97893a634b8189ed379820c2267c
+modified: 1654813295765
+created: 1654813026136
+url: "{{eom_url}}/jaulas"
+name: Jaulas by order type and distribution center
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_24a903ba430544f3b0068c650ef510f5
+    name: orderType
+    value: test
+    description: ""
+  - id: pair_00920e068b29462081d3bb2eafa82e83
+    name: distributionCenter
+    value: test
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1654813026136
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_80e290d785b442129beca6b83d485d29
+type: Request
+parentId: fld_b90cae7e7c754183b4d35f22b230c698
+modified: 1657747367384
+created: 1657296877099
+url: "{{eom_url}}/sync/full"
+name: sync full
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657296877100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

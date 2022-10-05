@@ -1,0 +1,33 @@
+_id: req_bea6404032a14710a1f00a3caf0f0862
+type: Request
+parentId: fld_3ec25a503a214d3fb8e238aab38e020a
+modified: 1663862101231
+created: 1656694792985
+url: "{{ lpn_url}}/updatelpns"
+name: lpns
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    [
+
+       {
+        "lpnId": "asdasd",
+        "guiaDespacho": "string"
+      }
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_99514c957ed74f3db715fb78e5d3c481
+authentication: {}
+metaSortKey: -1655753581676.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

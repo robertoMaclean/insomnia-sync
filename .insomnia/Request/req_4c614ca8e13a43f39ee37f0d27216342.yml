@@ -1,0 +1,25 @@
+_id: req_4c614ca8e13a43f39ee37f0d27216342
+type: Request
+parentId: fld_4caa97893a634b8189ed379820c2267c
+modified: 1655905771966
+created: 1654813018617
+url: "{{eom_url}}/v1/ordenesretiroentienda"
+name: Ordenenes retiro en tienda
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_103ce08aae914ff2b6b351e66bba6db9
+    name: rut
+    value: "174867194"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1654813018617
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
