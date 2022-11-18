@@ -1,7 +1,7 @@
 _id: req_3ca149fa101d41d8acbc6f6ab9141397
 type: Request
 parentId: fld_4caa97893a634b8189ed379820c2267c
-modified: 1662740607744
+modified: 1667400247426
 created: 1656521415525
 url: "{{eom_url}}/retornos/local/100"
 name: Retornos
@@ -12,11 +12,7 @@ body:
   text: |-
     {
 
-        "desde":"2022/06/01",
 
-        "hasta": "2022/06/25",
-
-       "comunaId": ["130109"]
 
     }
 parameters: []
