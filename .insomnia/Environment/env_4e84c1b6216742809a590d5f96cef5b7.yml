@@ -1,18 +1,20 @@
 _id: env_4e84c1b6216742809a590d5f96cef5b7
 type: Environment
 parentId: env_6289e4dbdef5142532609c99fd4f7d10e9d1ad97
-modified: 1657296948431
+modified: 1668785742319
 created: 1655905673854
 name: prod
 data:
   eom_url: https://cl-services-eom.aws.paris.cl/eom
   lpn_url: ""
-  eom_sync_url: ""
+  eom_sync_url: https://cl-eom-sync.aws.paris.cl/eom
+  eom_sync_service_url: https://cl-eom-sync-service.aws.paris.cl/eom/sync
 dataPropertyOrder:
   "&":
     - eom_url
     - lpn_url
     - eom_sync_url
+    - eom_sync_service_url
 color: null
 isPrivate: false
 metaSortKey: 1655905673854

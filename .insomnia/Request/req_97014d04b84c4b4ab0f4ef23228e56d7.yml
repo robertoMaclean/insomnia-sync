@@ -1,9 +1,9 @@
 _id: req_97014d04b84c4b4ab0f4ef23228e56d7
 type: Request
 parentId: fld_8a95b8aa9635495b8e56d9abd86a4f43
-modified: 1668781310257
+modified: 1668785824265
 created: 1667401151924
-url: localhost:3000/eom/sync/inventory
+url: "{{ eom_sync_service_url}}/inventory"
 name: get by item name
 description: ""
 method: GET

@@ -1,9 +1,9 @@
 _id: req_41529d327201467081c49c8b1b28015a
 type: Request
 parentId: fld_24531264935448c38b9db38ba7e88bb7
-modified: 1668781049852
+modified: 1668785832724
 created: 1667403168986
-url: localhost:3000/eom/sync/exclude-item
+url: "{{ eom_sync_service_url}}/exclude-item"
 name: exclude-item
 description: ""
 method: GET
