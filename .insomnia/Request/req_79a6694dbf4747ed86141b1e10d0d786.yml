@@ -1,0 +1,21 @@
+_id: req_79a6694dbf4747ed86141b1e10d0d786
+type: Request
+parentId: fld_b90cae7e7c754183b4d35f22b230c698
+modified: 1665698097217
+created: 1665698085939
+url: "{{eom_url}}/sync/delta"
+name: sync delta test
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1656715280919.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

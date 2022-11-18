@@ -1,0 +1,31 @@
+_id: req_464d8c5cfd0b453589ed1e6942268356
+type: Request
+parentId: fld_24531264935448c38b9db38ba7e88bb7
+modified: 1668781565114
+created: 1667423631310
+url: localhost:3000/eom/sync/exclude-item
+name: exclude-item create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"itemName": "6",
+    	"fechaIniExclude": "2021-12-13",
+    	"fechaFinExclude": "2021-12-21"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4b9efef0dadf44b29e3674cff2d741f2
+authentication: {}
+metaSortKey: -1667402160455
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
