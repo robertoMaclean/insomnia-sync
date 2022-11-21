@@ -1,0 +1,33 @@
+_id: req_ff60115cbee24e22b5b09566c29de78d
+type: Request
+parentId: fld_8a95b8aa9635495b8e56d9abd86a4f43
+modified: 1669043780667
+created: 1669041773179
+url: "{{ eom_sync_service_url}}/inventory"
+name: get by item name
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"items": ["734026002", "961447008"]
+    }
+parameters:
+  - id: pair_ac48652d3d8747f8b98307a5966f0517
+    name: itemName
+    value: "2030123"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d854c68aa1fc4e619c4f031b702eabae
+authentication: {}
+metaSortKey: -1666193383108
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
