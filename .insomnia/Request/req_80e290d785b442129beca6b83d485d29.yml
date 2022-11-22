@@ -1,9 +1,9 @@
 _id: req_80e290d785b442129beca6b83d485d29
 type: Request
 parentId: fld_b90cae7e7c754183b4d35f22b230c698
-modified: 1657747367384
+modified: 1669123181462
 created: 1657296877099
-url: "{{eom_url}}/sync/full"
+url: "{{ eom_sync_url }}/sync/full"
 name: sync full
 description: ""
 method: GET
