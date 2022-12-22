@@ -1,0 +1,21 @@
+_id: req_6fc327cc88084473abf515014c530b09
+type: Request
+parentId: fld_7167d836f6a94c0b89afd29945390ab8
+modified: 1671713131858
+created: 1671625134217
+url: localhost:8080/eom/market-place/copy-files-to-bucket
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671625134217
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
