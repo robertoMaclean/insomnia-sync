@@ -1,0 +1,21 @@
+_id: req_7dd7e159d54243f4a80d912964c1e536
+type: Request
+parentId: wrk_70a3ac9428da4888bb9e461e846e33af
+modified: 1675111122432
+created: 1675111098974
+url: https://api-stock-cl.ecomm-stg.cencosud.com/mkp/eom/urlsigned
+name: presigned url
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1675111098974
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

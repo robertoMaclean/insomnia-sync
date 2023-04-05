@@ -1,22 +1,26 @@
-_id: req_3ca149fa101d41d8acbc6f6ab9141397
+_id: req_f87a31e1a2ec478cb18933c49e27b9d9
 type: Request
 parentId: fld_4caa97893a634b8189ed379820c2267c
-modified: 1680710875522
-created: 1656521415525
-url: "{{eom_url}}/retornos/local/100"
-name: Retornos
+modified: 1678886779264
+created: 1678810443684
+url: "{{eom_url}}/break-lines"
+name: Break Lines Put
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
-  text: '{ "tcPurchaseOrdersId": [ "000008455", "000008454" ] }'
+  text: |-
+    {
+    	"purchaseOrdersLineItemIds": ["644049", "2000", "3000"]
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_ffa30bac19624ef795f2b3726e4af7bb
+    id: pair_440444bf71884e1b97bdb3236a7ed7b8
+    disabled: false
 authentication: {}
-metaSortKey: -1656521415526
+metaSortKey: -1676960748644.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

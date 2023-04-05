@@ -1,7 +1,7 @@
 _id: req_bea6404032a14710a1f00a3caf0f0862
 type: Request
 parentId: fld_3ec25a503a214d3fb8e238aab38e020a
-modified: 1663862101231
+modified: 1679060520249
 created: 1656694792985
 url: "{{ lpn_url}}/updatelpns"
 name: lpns
@@ -11,10 +11,13 @@ body:
   mimeType: application/json
   text: |-
     [
-
-       {
-        "lpnId": "asdasd",
-        "guiaDespacho": "string"
+      {
+        "lpnId": "DD000033803",
+        "guiaDespacho": "1"
+      },
+    	{
+        "lpnId": "DD000033802",
+        "guiaDespacho": "2"
       }
     ]
 parameters: []

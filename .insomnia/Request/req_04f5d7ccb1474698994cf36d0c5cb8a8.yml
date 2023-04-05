@@ -1,0 +1,21 @@
+_id: req_04f5d7ccb1474698994cf36d0c5cb8a8
+type: Request
+parentId: fld_4caa97893a634b8189ed379820c2267c
+modified: 1678810415607
+created: 1678810398315
+url: "{{eom_url}}/break-lines"
+name: Break Lines
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1678810398315
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
