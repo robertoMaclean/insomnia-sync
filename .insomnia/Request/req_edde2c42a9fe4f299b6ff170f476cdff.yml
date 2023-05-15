@@ -1,25 +1,27 @@
-_id: req_3ca149fa101d41d8acbc6f6ab9141397
+_id: req_edde2c42a9fe4f299b6ff170f476cdff
 type: Request
-parentId: fld_4caa97893a634b8189ed379820c2267c
-modified: 1681938915203
-created: 1656521415525
-url: "{{eom_url}}/retornos/local/100"
-name: Retornos
+parentId: fld_e5244f03cce54bdab61a104f72b3aaf4
+modified: 1684164494532
+created: 1683638061934
+url: "{{ _.eom_release_order_number_utility }}/"
+name: update
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"tcPurchaseOrdersId": ["000008455", "000008454"]
+    	"orders": [
+    		"4367466160"
+    	]
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_ffa30bac19624ef795f2b3726e4af7bb
+    id: pair_132a4301f3994cfcb6dd7c1a4aaceefe
 authentication: {}
-metaSortKey: -1656521415526
+metaSortKey: -1683638061934
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

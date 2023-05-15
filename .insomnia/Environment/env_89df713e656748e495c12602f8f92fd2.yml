@@ -1,7 +1,7 @@
 _id: env_89df713e656748e495c12602f8f92fd2
 type: Environment
 parentId: env_6289e4dbdef5142532609c99fd4f7d10e9d1ad97
-modified: 1668785755318
+modified: 1683638586827
 created: 1654812493875
 name: local
 data:
@@ -9,12 +9,16 @@ data:
   lpn_url: http://localhost:8080/eom
   eom_sync_url: http://localhost:8080/eom
   eom_sync_service_url: localhost:3000/eom/sync
+  eom_capacity: localhost:8080/eom/capacity
+  eom_release_order_number_utility: localhost:8080/releaseordernumber
 dataPropertyOrder:
   "&":
     - eom_url
     - lpn_url
     - eom_sync_url
     - eom_sync_service_url
+    - eom_capacity
+    - eom_release_order_number_utility
 color: null
 isPrivate: false
 metaSortKey: 1654812493876

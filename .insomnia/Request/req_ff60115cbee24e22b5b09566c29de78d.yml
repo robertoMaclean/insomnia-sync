@@ -1,7 +1,7 @@
 _id: req_ff60115cbee24e22b5b09566c29de78d
 type: Request
 parentId: fld_8a95b8aa9635495b8e56d9abd86a4f43
-modified: 1671713208881
+modified: 1681164708478
 created: 1669041773179
 url: "{{ eom_sync_service_url}}/inventory"
 name: get by item name
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"items": ["734026002", "961447008"]
+    	"items": ["Control", "390761999"]
     }
 parameters: []
 headers:

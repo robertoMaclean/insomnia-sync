@@ -1,25 +1,28 @@
-_id: req_3ca149fa101d41d8acbc6f6ab9141397
+_id: req_ea1eaefd7f91413fa1dde446f3458a43
 type: Request
-parentId: fld_4caa97893a634b8189ed379820c2267c
-modified: 1681938915203
-created: 1656521415525
-url: "{{eom_url}}/retornos/local/100"
-name: Retornos
+parentId: fld_39e197c8fb4947a9b3f27a9d51343872
+modified: 1683131376218
+created: 1682515139517
+url: "{{eom_capacity}}/zona/active"
+name: create capacity scheduling
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"tcPurchaseOrdersId": ["000008455", "000008454"]
+        "zonaAgendaId": [
+            1066748,
+            222222
+        ]
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_ffa30bac19624ef795f2b3726e4af7bb
+    id: pair_914071637a864954b75c39867b0496b9
 authentication: {}
-metaSortKey: -1656521415526
+metaSortKey: -1682515139517
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
