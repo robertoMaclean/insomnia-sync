@@ -1,10 +1,10 @@
-_id: req_85876ac28b10477fb129216321f56ddf
+_id: req_92fcd2157eb74cc7b48e69ca7f18802c
 type: Request
 parentId: fld_39e197c8fb4947a9b3f27a9d51343872
-modified: 1694111249322
-created: 1682363734643
+modified: 1689601097157
+created: 1689091527787
 url: "{{eom_capacity}}/zona"
-name: put zonas
+name: test put zonas
 description: ""
 method: PUT
 body:
@@ -14,19 +14,19 @@ body:
     	"zonas": [
     		{
     			"zona": "33230CD",
-    			"origen": "33230",
-    			"direction": "OUTBOUND",
+    			"origen": "33229",
+    			"direction": "OUTBUND",
     			"jornada": "TH",
-    			"rank": 10,
-    			"start_dttm": "2021-50-12",
-    			"end_dttm": "2040-12-30",
-    			"sunday_capacity": 10,
-    			"monday_capacity": 20,
-    			"tuesday_capacity": 30,
-    			"wednesday_capacity": 40,
-    			"thursday_capacity": 50,
-    			"friday_capacity": 60,
-    			"saturday_capacity": 70
+    			"rank": "10",
+    			"start_dttm": "2021-10-31",
+    			"end_dttm": "2040-12-31",
+    			"sunday_capacity": "0",
+    			"monday_capacity": "10",
+    			"tuesday_capacity": "20",
+    			"wednesday_capacity": "0",
+    			"thursday_capacity": "50",
+    			"friday_capacity": "100",
+    			"saturday_capacity": "30"
     		}
     	]
     }
@@ -36,7 +36,7 @@ headers:
     value: application/json
     id: pair_30712d1b3d04449887385e0ac1effcde
 authentication: {}
-metaSortKey: -1682363734643
+metaSortKey: -1680587066479
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,25 @@
+_id: req_c7847a7d13e74ffa99e5b77bdf9f0d01
+type: Request
+parentId: fld_9a86a3ee899c4fa2a3da63bdfc7421b3
+modified: 1687961446700
+created: 1686143548850
+url: "{{ _.jarvis_url }}/zone"
+name: get with query params sugerencia
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9139d1dc69db45d0bf3eae79f27fa893
+    name: rul
+    value: admin_eom
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1685941070704.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

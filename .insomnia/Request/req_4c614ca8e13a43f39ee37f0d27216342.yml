@@ -1,9 +1,9 @@
 _id: req_4c614ca8e13a43f39ee37f0d27216342
 type: Request
 parentId: fld_4caa97893a634b8189ed379820c2267c
-modified: 1655905771966
+modified: 1691194283660
 created: 1654813018617
-url: "{{eom_url}}/v1/ordenesretiroentienda"
+url: " {{ _.eom_custom_services }}/v1/ordenesretiroentienda"
 name: Ordenenes retiro en tienda
 description: ""
 method: GET
@@ -13,6 +13,7 @@ parameters:
     name: rut
     value: "174867194"
     description: ""
+    disabled: false
 headers: []
 authentication: {}
 metaSortKey: -1654813018617

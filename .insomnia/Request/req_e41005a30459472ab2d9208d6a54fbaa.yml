@@ -1,9 +1,9 @@
 _id: req_e41005a30459472ab2d9208d6a54fbaa
 type: Request
 parentId: fld_4caa97893a634b8189ed379820c2267c
-modified: 1681938921128
+modified: 1688417378867
 created: 1657642257592
-url: "{{eom_url}}/retornos/local/100"
+url: "{{ _.eom_custom_services }}/retornos/local/100"
 name: Retornos test
 description: ""
 method: POST
@@ -11,10 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-      
-      "comunaId": [
-        "130109a"
-      ]
+      "desde": "2000/04/01",
+    	"hasta": "2023/04/05",
+    	"comunaId": ["130106", "130109"]
     }
 parameters: []
 headers:

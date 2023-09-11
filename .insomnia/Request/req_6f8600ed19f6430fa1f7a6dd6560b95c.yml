@@ -1,0 +1,105 @@
+_id: req_6f8600ed19f6430fa1f7a6dd6560b95c
+type: Request
+parentId: fld_9a86a3ee899c4fa2a3da63bdfc7421b3
+modified: 1692725545572
+created: 1691155703343
+url: https://login.microsoftonline.com/a50762c4-c5ad-413a-a05e-9ffe15752882/oauth2/v2.0/token
+name: token
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: client_id
+      value: 68f4c6d5-f930-4788-a401-8bf4e2ec826f
+      id: pair_9e7ce2f8ab234a279f33f3ff9eb57fd1
+    - id: pair_ccaec23117b54ea68e2f96f5678457f9
+      name: scope
+      value: openid offline_access User.Read profile
+      description: ""
+    - id: pair_4158e172f6094722898b9dfd03f16e5b
+      name: grant_type
+      value: authorization_code
+      description: ""
+    - id: pair_c62fc6a702054909970066bfe3d4aa83
+      name: client_info
+      value: "1"
+      description: ""
+    - id: pair_80c67efe38c447d093d6cedc28469754
+      name: x-client-SKU
+      value: msal.js.browser
+      description: ""
+    - id: pair_fdb24126dd374be7afa197f2ab6b60e2
+      name: x-client-VER
+      value: 2.37.1
+      description: ""
+    - id: pair_cf8b8c40d4394d07b97e92d7720d45df
+      name: x-ms-lib-capability
+      value: retry-after, h429
+      description: ""
+    - id: pair_0d6d23dbe6704b7e9f6628e416852ecf
+      name: x-client-current-telemetry
+      value: 5|61,0,,,|@azure/msal-react,1.5.8
+      description: ""
+    - id: pair_18575252a7f04acb95604dda35ca3061
+      name: x-client-last-telemetry
+      value: 5|1|||0,0
+      description: ""
+    - id: pair_9cda5b39624f4abeb502400e5c61fa63
+      name: client-request-id
+      value: 383f6796-32b2-45d4-b303-78e4f69b5e1d
+      description: ""
+    - id: pair_f39799b30c0f4138bf0281d26fa1e530
+      name: X-AnchorMailbox
+      value: Oid:9e88c3fa-80de-411d-93ca-a98238bab51c@a50762c4-c5ad-413a-a05e-9ffe15752882
+      description: ""
+    - id: pair_96c18286cdb94403a3c2430348e093fa
+      name: code
+      value: 0.AQYAxGIHpa3FOkGgXp_-FXUogtXG9Ggw-YhHpAGL9OLsgm8GAJE.AgABAAIAAAAtyolDObpQQ5VtlI4uGjEPAgDs_wUA9P9tu4MhJWUU2RnhWM2WXXj63rX8GVmrAP3XXahHpY5rnIfAPCqa6fdP2mhUGo-aaGr77CwN7hXYW7JmoxUxINakj46degsK9e-Cnz3TBz2gTWwYCzKYeK6McafrYfkuUaqxV66VhicuqsyGwvpGOWVU57JSXengj2pSbTT6vq6DbJdUbdguIiW1RrqxFGaq0cFbHVDjew00dshKB2Qrr222vUL9RZOeCW4JYP2F8cjyAN1gYa4ZhPqLjl1dF2_zpSv3GxO93H7gmZfv_4x4F-hpa6H9BcUIF83-qFCCSTJGnqvl6cLOuHD_q7g7aVcuQvjkyvYG7mRxDD14MglClaPafEdcKV51mbISzqFwq4BuZANc3e7VYg_sbgkKfXhtJvO0PCZt32Oy4-16a6q1DvOd9LuFRY9Wbi21cFXuqvhCJC9wYUaegwTb7hb8y20cWk7uLg6M77OYL-2bxQvmyDNgxnuXGuy9gY4aA3dQ20AIr3MiVn7C006fv-zJyTQ4IEGPRFUZ_178pyXvSlIWwtvJBqYrrZsdpi8W4n7_yqQL4dbmv5Gg0OEwYA3n8_Lok9wWohY369VINznXWt2SIIsptbNJwpbd8b9KyJ5qDEh6YIm95JEhNubKrx31K9fCVgOM9x033cwoG_vS3TfKEsF3bp020oDe5z1fVYhYryy5M-bsDtIf3d3qggjv_Y-yT1AZxA4nu7QUYoGdormF9wNPbO0CMIn3pYsBWyUrLVMTWeQWJmGUDu0MxvMAgFHoUmyen_EC8UZHJ4PzEM9AxlNlA9hPehKaB_ImFf8BruS6TcZdwQT_vsC-lmkjL77JAoZmFvIRYwrwiKe39-AlvX1QoHxy3vOuhsyf0cwWtCvCYg1cLBwK8xkft9sxpmzqHYOWOLAu
+      description: ""
+    - id: pair_7a7dafafb9894b538e78b56fef5fd1db
+      name: code_verifier
+      value: 9OvRV3Ule7z_-lSHKwgzkZ2xS08etcCY4cW3QqLEJEk
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded;charset=utf-8
+    id: pair_02f0e411c910449986fa0e8fab43f13c
+  - id: pair_751027f197314e969687c005a462f40b
+    name: Host
+    value: login.microsoftonline.com
+    description: ""
+  - id: pair_90952e682d64468f811ae93685fc8491
+    name: Origin
+    value: https://cl-jarvis.aws-test.paris.cl
+    description: ""
+  - id: pair_1df246a17e7a4c2c812e89422a00018c
+    name: Referer
+    value: https://cl-jarvis.aws-test.paris.cl/
+    description: ""
+  - id: pair_04283955001a4a8281d5b1a7d2350e3f
+    name: Sec-Fetch-Dest
+    value: empty
+    description: ""
+  - id: pair_17ac9a4d99eb498cb1c1d97d569462dd
+    name: Sec-Fetch-Mode
+    value: cors
+    description: ""
+  - id: pair_d93400b823734eaeb3e92b5fefe33b46
+    name: Sec-Fetch-Site
+    value: cross-site
+    description: ""
+  - id: pair_63b1107193a843748553cbf6af55a534
+    name: TE
+    value: trailers
+    description: ""
+authentication: {}
+metaSortKey: -1691155703343
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

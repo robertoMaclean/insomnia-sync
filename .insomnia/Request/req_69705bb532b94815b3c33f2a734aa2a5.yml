@@ -1,9 +1,9 @@
 _id: req_69705bb532b94815b3c33f2a734aa2a5
 type: Request
 parentId: fld_4caa97893a634b8189ed379820c2267c
-modified: 1654813678340
+modified: 1684942880742
 created: 1654813022676
-url: "{{eom_url}}/jaulas/JAU0000008"
+url: "{{ _.eom_custom_services }}/jaulas/JAU0000008"
 name: Jaula
 description: ""
 method: GET

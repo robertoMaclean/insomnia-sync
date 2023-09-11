@@ -1,9 +1,9 @@
 _id: req_85f98aa00cca482bb140a1f6f510023f
 type: Request
 parentId: fld_4caa97893a634b8189ed379820c2267c
-modified: 1654812878841
+modified: 1684942901005
 created: 1654812833882
-url: "{{eom_url}}/comunas"
+url: "{{ _.eom_custom_services }}/comunas"
 name: Comunas
 description: ""
 method: GET

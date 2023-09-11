@@ -1,24 +1,32 @@
 _id: env_8f8917e976fa4bc48c29cc9ec6b2c1dc
 type: Environment
 parentId: env_6289e4dbdef5142532609c99fd4f7d10e9d1ad97
-modified: 1683638624473
+modified: 1692804074141
 created: 1655486334675
 name: dev
 data:
   eom_url: https://cl-eom-sync.aws-test.paris.cl/eom
-  lpn_url: https://cl-sql-interface-eom.aws-test.paris.cl/eom
+  sql_interface_url: https://cl-sql-interface-eom.aws-test.paris.cl/eom
   eom_sync_url: https://cl-eom-sync.aws-test.paris.cl/eom
   eom_sync_service_url: https://cl-eom-sync-service.aws-test.paris.cl/eom/sync
   eom_capacity: https://cl-eom-capacity.aws-test.paris.cl/eom/capacity
   eom_release_order_number_utility: https://releaseordernumberutility.aws-test.paris.cl/releaseordernumber
+  consulta_datos_logisticos: https://cl-consulta-datos-carton.aws-test.paris.cl/cartons
+  consulta_lpn_url: https://cl-consulta-lpn.aws-test.paris.cl/lpns
+  eom_custom_services: https://cl-services-eom.aws-test.paris.cl/eom
+  jarvis_url: https://cl-jarvis-backend.aws-test.paris.cl
 dataPropertyOrder:
   "&":
     - eom_url
-    - lpn_url
+    - sql_interface_url
     - eom_sync_url
     - eom_sync_service_url
     - eom_capacity
     - eom_release_order_number_utility
+    - consulta_datos_logisticos
+    - consulta_lpn_url
+    - eom_custom_services
+    - jarvis_url
 color: null
 isPrivate: false
 metaSortKey: 1655486334675

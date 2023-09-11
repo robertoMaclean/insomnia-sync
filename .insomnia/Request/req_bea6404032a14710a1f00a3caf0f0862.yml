@@ -1,9 +1,9 @@
 _id: req_bea6404032a14710a1f00a3caf0f0862
 type: Request
 parentId: fld_3ec25a503a214d3fb8e238aab38e020a
-modified: 1684164498317
+modified: 1686330339974
 created: 1656694792985
-url: "{{ lpn_url}}/updatelpns"
+url: "{{ _.sql_interface_url }}/updatelpns"
 name: lpns
 description: ""
 method: PUT

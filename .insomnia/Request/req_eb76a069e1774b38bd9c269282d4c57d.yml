@@ -1,0 +1,49 @@
+_id: req_eb76a069e1774b38bd9c269282d4c57d
+type: Request
+parentId: fld_4f3198854f104e469bad818395f8e0e2
+modified: 1693843742087
+created: 1692803950971
+url: "{{ _.jarvis_external }}/sugestion"
+name: create sugestion
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"creator": "Smart Capacity",
+    	"observations": "Test",
+    	"type": "eom",
+    	"zones": [
+    		{
+    			"zone": "31412CD",
+    			"origin": "31412",
+    			"direction": "OUTBOUND",
+    			"journey": "TH",
+    			"rank": 1,
+    			"startDttm": "2021-10-31",
+    			"endDttm": "2040-12-31",
+    			"sundayCapacity": 0,
+    			"mondayCapacity": 10,
+    			"tuesdayCapacity": 20,
+    			"wednesdayCapacity": 0,
+    			"thursdayCapacity": 50,
+    			"fridayCapacity": 100,
+    			"saturdayCapacity": 30
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5b4d44fb5faa45cbbde4d8e6c72cc801
+authentication: {}
+metaSortKey: -1692803950971
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

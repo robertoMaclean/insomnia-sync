@@ -1,26 +1,26 @@
-_id: req_f87a31e1a2ec478cb18933c49e27b9d9
+_id: req_f78ef66b3b5d4e8596d46f6582dcc835
 type: Request
 parentId: fld_4caa97893a634b8189ed379820c2267c
-modified: 1688393665607
-created: 1678810443684
-url: "{{ _.eom_custom_services }}/break-lines"
-name: Break Lines Put
+modified: 1688565195863
+created: 1688049280578
+url: "{{ _.eom_custom_services }}/v2/retornos/local/100"
+name: Retornos v2
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"purchaseOrdersLineItemIds": ["644049", "2000", "3000"]
+    	"desde": "2023/07/01",
+    	"hasta": "2023/07/05"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_440444bf71884e1b97bdb3236a7ed7b8
-    disabled: false
+    id: pair_ffa30bac19624ef795f2b3726e4af7bb
 authentication: {}
-metaSortKey: -1676960748644.5
+metaSortKey: -1656329457063.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

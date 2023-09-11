@@ -1,9 +1,9 @@
 _id: req_1552a8d711f748c9bbd01e12904f3463
 type: Request
 parentId: fld_4caa97893a634b8189ed379820c2267c
-modified: 1654813295765
+modified: 1684942876392
 created: 1654813026136
-url: "{{eom_url}}/jaulas"
+url: "{{ _.eom_custom_services }}/jaulas"
 name: Jaulas by order type and distribution center
 description: ""
 method: GET

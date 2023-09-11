@@ -1,17 +1,17 @@
-_id: req_1ad6dabfc9ca47e087302fd6ea03bf2e
+_id: req_726e280138cb4a44b3b32cdfdcbcf43b
 type: Request
 parentId: fld_4caa97893a634b8189ed379820c2267c
-modified: 1684942891523
-created: 1654812888140
-url: "{{ _.eom_custom_services }}/jaulasAll"
-name: Jaulas
+modified: 1684942912041
+created: 1684941464142
+url: "{{ _.eom_custom_services }}/regiones"
+name: Regiones
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1654812888140
+metaSortKey: -1654812399303
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

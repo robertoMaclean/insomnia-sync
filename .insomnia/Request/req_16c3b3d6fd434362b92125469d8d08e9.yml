@@ -1,9 +1,9 @@
 _id: req_16c3b3d6fd434362b92125469d8d08e9
 type: Request
 parentId: fld_4caa97893a634b8189ed379820c2267c
-modified: 1654812748898
+modified: 1684942905202
 created: 1654812594671
-url: "{{eom_url}}/ciudades"
+url: "{{ _.eom_custom_services }}/ciudades"
 name: Ciudades
 description: ""
 method: GET

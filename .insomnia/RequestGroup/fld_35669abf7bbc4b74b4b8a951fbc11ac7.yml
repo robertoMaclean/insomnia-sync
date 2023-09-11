@@ -1,0 +1,10 @@
+_id: fld_35669abf7bbc4b74b4b8a951fbc11ac7
+type: RequestGroup
+parentId: wrk_70a3ac9428da4888bb9e461e846e33af
+modified: 1684186804772
+created: 1684186804772
+name: consulta-datos-logisticos
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1684186804772

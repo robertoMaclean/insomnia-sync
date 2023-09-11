@@ -1,9 +1,9 @@
 _id: req_2bd312c1111c4f768ff4383635c51c78
 type: Request
 parentId: fld_22e1538ad8994756a3ca15f431e0d2b6
-modified: 1663863431892
+modified: 1684764292468
 created: 1663862158772
-url: localhost:8080/lpns/110016204
+url: "{{ _.consulta_lpn_url }}/110016204"
 name: lpns by id
 description: ""
 method: GET

@@ -1,25 +1,28 @@
-_id: req_ff60115cbee24e22b5b09566c29de78d
+_id: req_f5560830baa641e5bdc27c8f504b7205
 type: Request
-parentId: fld_8a95b8aa9635495b8e56d9abd86a4f43
-modified: 1684788194978
-created: 1669041773179
-url: "{{ eom_sync_service_url}}/inventory"
-name: get by item name
+parentId: fld_9a86a3ee899c4fa2a3da63bdfc7421b3
+modified: 1693335536005
+created: 1686597478518
+url: "{{ _.jarvis_url }}/approval/71"
+name: update sugestion approval state
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"items": ["Control", "390761999"]
+    	"id": 71,
+    	"state": {
+    		"id": 1
+    	}
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_d854c68aa1fc4e619c4f031b702eabae
+    id: pair_05056b5c53ec411c816a0cc613bece35
 authentication: {}
-metaSortKey: -1666193383108
+metaSortKey: -1686019696348.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

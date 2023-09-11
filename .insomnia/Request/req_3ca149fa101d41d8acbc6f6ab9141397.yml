@@ -1,9 +1,9 @@
 _id: req_3ca149fa101d41d8acbc6f6ab9141397
 type: Request
 parentId: fld_4caa97893a634b8189ed379820c2267c
-modified: 1681938915203
+modified: 1688565133747
 created: 1656521415525
-url: "{{eom_url}}/retornos/local/100"
+url: "{{ _.eom_custom_services }}/retornos/local/100"
 name: Retornos
 description: ""
 method: POST
@@ -11,7 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"tcPurchaseOrdersId": ["000008455", "000008454"]
+    	"desde": "2020/04/01",
+    	"hasta": "2023/04/02",
+    	"comunaId": ["130106", "130109"]
     }
 parameters: []
 headers:

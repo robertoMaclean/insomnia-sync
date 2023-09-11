@@ -1,9 +1,9 @@
 _id: req_250e6a62d71a4905bf895b3c1a277f4c
 type: Request
 parentId: fld_4caa97893a634b8189ed379820c2267c
-modified: 1655905835249
+modified: 1684942896377
 created: 1654813003796
-url: "{{eom_url}}/orden/v1/ordenescliente"
+url: "{{ _.eom_custom_services }}/orden/v1/ordenescliente"
 name: Ordenes cliente
 description: ""
 method: GET

@@ -1,17 +1,17 @@
-_id: req_1ad6dabfc9ca47e087302fd6ea03bf2e
+_id: req_daebb1ec543941688e875118094c666e
 type: Request
-parentId: fld_4caa97893a634b8189ed379820c2267c
-modified: 1684942891523
-created: 1654812888140
-url: "{{ _.eom_custom_services }}/jaulasAll"
-name: Jaulas
+parentId: fld_35669abf7bbc4b74b4b8a951fbc11ac7
+modified: 1684857928796
+created: 1684186838987
+url: "{{ _.consulta_datos_logisticos}}/DD000064577"
+name: get carton by id
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1654812888140
+metaSortKey: -1684186838987
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

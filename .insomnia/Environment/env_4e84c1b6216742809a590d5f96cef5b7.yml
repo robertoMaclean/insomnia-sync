@@ -1,20 +1,24 @@
 _id: env_4e84c1b6216742809a590d5f96cef5b7
 type: Environment
 parentId: env_6289e4dbdef5142532609c99fd4f7d10e9d1ad97
-modified: 1682363785003
+modified: 1688393999745
 created: 1655905673854
 name: prod
 data:
   eom_url: https://cl-services-eom.aws.paris.cl/eom
-  lpn_url: ""
+  sql_interface_url: ""
   eom_sync_url: https://cl-eom-sync.aws.paris.cl/eom
   eom_sync_service_url: https://cl-eom-sync-service.aws.paris.cl/eom/sync
+  consulta_datos_logisticos: https://cl-consulta-datos-carton.aws.paris.cl/cartons
+  eom_custom_services: https://cl-services-eom.aws.paris.cl/eom
 dataPropertyOrder:
   "&":
     - eom_url
-    - lpn_url
+    - sql_interface_url
     - eom_sync_url
     - eom_sync_service_url
+    - consulta_datos_logisticos
+    - eom_custom_services
 color: null
 isPrivate: false
 metaSortKey: 1655905673854
